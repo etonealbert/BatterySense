@@ -1,11 +1,11 @@
 //
-//  ViewController.m
+//  MainMenuView.m
 //  BatterySense
 //
 //  Created by Albert on 19.06.2023.
 //
 
-#import "ViewController.h"
+#import "MainMenuView.h"
 
 @interface ViewController ()
 
