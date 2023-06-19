@@ -1,0 +1,36 @@
+# Xcode
+.DS_Store
+xcuserdata/
+*.xcodeproj
+*.xcworkspace/
+!*.xcworkspace/xcshareddata/
+!*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+!*.xcworkspace/xcshareddata/swiftpm/
+
+# Build products
+build/
+DerivedData/
+
+# Dependencies
+Pods/
+Podfile.lock
+
+# Compiled source
+*.o
+*.slo
+*.lo
+*.lai
+*.la
+*.lproj/
+
+# User-specific files
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+
+# Deployment
+*.ipa
+*.xcarchive
+
