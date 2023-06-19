@@ -5,8 +5,10 @@
 //  Created by Albert on 19.06.2023.
 //
 
-#ifndef MainMenuModel_h
-#define MainMenuModel_h
+#import <UIKit/UIKit.h>
+
+@interface MainMenuModel : UIViewController
 
 
-#endif /* MainMenuModel_h */
+@end
+

@@ -6,24 +6,24 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
-
-@end
+#import "MainMenuController.h"
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Установите ваш контроллер корневого представления (root view controller) здесь
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *rootViewController = [mainStoryboard instantiateViewControllerWithIdentifier:@"MainMenuView"];
+    self.window.rootViewController = rootViewController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
 
 #pragma mark - App Delegate Methods
 
-- (BOOL)application:(UIApplication *)application
-    willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Called when the launch process is initiated, prior to calling didFinishLaunchingWithOptions
     // This is the earliest point where you can perform custom setup for your app
     return YES;
@@ -52,6 +52,5 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
 
 @end

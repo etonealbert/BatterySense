@@ -6,3 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MainMenuModel.h"
+
+@interface MainMenuModel ()
+
+@end
+
+@implementation MainMenuModel
+
+
+@end

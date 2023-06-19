@@ -7,7 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainMenuView : UIViewController
+
+@property (nonatomic, weak) IBOutlet UILabel *helloLabel;
 
 
 @end
