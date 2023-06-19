@@ -1,4 +1,3 @@
-//
 //  MainMenuView.h
 //  BatterySense
 //
@@ -7,9 +6,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainMenuView : UIViewController
+@interface MainMenuView : UIView
 
-@property (nonatomic, weak) IBOutlet UILabel *helloLabel;
+@property (nonatomic, strong) UILabel *helloLabel;
 
+- (void)setupUI;
 
 @end

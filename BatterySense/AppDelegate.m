@@ -6,7 +6,6 @@
 //
 
 #import "AppDelegate.h"
-#import "MainMenuController.h"
 
 @implementation AppDelegate
 
@@ -14,7 +13,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Установите ваш контроллер корневого представления (root view controller) здесь
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    UIViewController *rootViewController = [mainStoryboard instantiateViewControllerWithIdentifier:@"MainMenuView"];
+    UIViewController *rootViewController = [mainStoryboard instantiateViewControllerWithIdentifier:@"MainMenuController"];
     self.window.rootViewController = rootViewController;
     [self.window makeKeyAndVisible];
     return YES;

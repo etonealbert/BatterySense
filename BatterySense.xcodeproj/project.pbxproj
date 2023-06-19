@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		388BA3C52A4035AD00DE66AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 388BA3C42A4035AD00DE66AC /* AppDelegate.m */; };
-		388BA3CE2A4035AD00DE66AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388BA3CC2A4035AD00DE66AC /* Main.storyboard */; };
 		388BA3D02A4035AE00DE66AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388BA3CF2A4035AE00DE66AC /* Assets.xcassets */; };
 		388BA3D32A4035AE00DE66AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388BA3D12A4035AE00DE66AC /* LaunchScreen.storyboard */; };
 		388BA3D62A4035AE00DE66AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 388BA3D52A4035AE00DE66AC /* main.m */; };
@@ -16,7 +15,6 @@
 		388BA3E32A403DB000DE66AC /* HistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 388BA3E22A403DB000DE66AC /* HistoryController.m */; };
 		388BA3E72A403DFC00DE66AC /* SoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 388BA3E62A403DFC00DE66AC /* SoundController.m */; };
 		388BA3EA2A403E2900DE66AC /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 388BA3E92A403E2900DE66AC /* SettingsController.m */; };
-		388BA3ED2A403E5900DE66AC /* MainMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 388BA3EC2A403E5900DE66AC /* MainMenuView.m */; };
 		388BA3F02A403E8400DE66AC /* HistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 388BA3EF2A403E8400DE66AC /* HistoryView.m */; };
 		388BA3F32A403EB500DE66AC /* SoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 388BA3F22A403EB500DE66AC /* SoundView.m */; };
 		388BA3F62A403EE000DE66AC /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 388BA3F52A403EE000DE66AC /* SettingsView.m */; };
@@ -25,13 +23,14 @@
 		388BA3FF2A403F4D00DE66AC /* HistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388BA3FE2A403F4D00DE66AC /* HistoryModel.m */; };
 		388BA4022A403F6F00DE66AC /* SoundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388BA4012A403F6F00DE66AC /* SoundModel.m */; };
 		388BA4052A403F8B00DE66AC /* SettingsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388BA4042A403F8B00DE66AC /* SettingsModel.m */; };
+		38FE971B2A40602100C470E8 /* MainMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 388BA3EC2A403E5900DE66AC /* MainMenuView.m */; };
+		38FE971D2A409D7600C470E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FE971C2A409D7600C470E8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		388BA3C02A4035AD00DE66AC /* BatterySense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatterySense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		388BA3C32A4035AD00DE66AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		388BA3C42A4035AD00DE66AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		388BA3CD2A4035AD00DE66AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		388BA3CF2A4035AE00DE66AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		388BA3D22A4035AE00DE66AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		388BA3D42A4035AE00DE66AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		388BA4012A403F6F00DE66AC /* SoundModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundModel.m; sourceTree = "<group>"; };
 		388BA4032A403F7B00DE66AC /* SettingsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsModel.h; sourceTree = "<group>"; };
 		388BA4042A403F8B00DE66AC /* SettingsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsModel.m; sourceTree = "<group>"; };
+		38FE971C2A409D7600C470E8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 				388BA3DE2A403CF200DE66AC /* Models */,
 				388BA3DD2A403CDC00DE66AC /* Views */,
 				388BA3DC2A403CC200DE66AC /* Controllers */,
-				388BA3CC2A4035AD00DE66AC /* Main.storyboard */,
 				388BA3D12A4035AE00DE66AC /* LaunchScreen.storyboard */,
+				38FE971C2A409D7600C470E8 /* Main.storyboard */,
 				388BA3CF2A4035AE00DE66AC /* Assets.xcassets */,
 				388BA3D42A4035AE00DE66AC /* Info.plist */,
 				388BA3D52A4035AE00DE66AC /* main.m */,
@@ -212,9 +212,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FE971D2A409D7600C470E8 /* Main.storyboard in Resources */,
 				388BA3D32A4035AE00DE66AC /* LaunchScreen.storyboard in Resources */,
 				388BA3D02A4035AE00DE66AC /* Assets.xcassets in Resources */,
-				388BA3CE2A4035AD00DE66AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FE971B2A40602100C470E8 /* MainMenuView.m in Sources */,
 				388BA3E32A403DB000DE66AC /* HistoryController.m in Sources */,
 				388BA3F62A403EE000DE66AC /* SettingsView.m in Sources */,
 				388BA3F92A403F0600DE66AC /* AdvancedSettingsView.m in Sources */,
@@ -238,7 +239,6 @@
 				388BA3D62A4035AE00DE66AC /* main.m in Sources */,
 				388BA4052A403F8B00DE66AC /* SettingsModel.m in Sources */,
 				388BA3F02A403E8400DE66AC /* HistoryView.m in Sources */,
-				388BA3ED2A403E5900DE66AC /* MainMenuView.m in Sources */,
 				388BA3E72A403DFC00DE66AC /* SoundController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,14 +246,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		388BA3CC2A4035AD00DE66AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				388BA3CD2A4035AD00DE66AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		388BA3D12A4035AE00DE66AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -315,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -367,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

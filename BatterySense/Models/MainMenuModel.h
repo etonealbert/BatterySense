@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainMenuModel : UIViewController
+@interface MainMenuModel: NSObject
 
 
 @end
