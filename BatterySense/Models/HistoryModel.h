@@ -5,8 +5,11 @@
 //  Created by Albert on 19.06.2023.
 //
 
-#ifndef HistoryModel_h
-#define HistoryModel_h
+#import <Foundation/Foundation.h>
 
+@interface HistoryModel : NSObject
 
-#endif /* HistoryModel_h */
+@property (nonatomic, strong) NSArray *chargingStages;
+
+@end
+

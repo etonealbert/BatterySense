@@ -5,8 +5,9 @@
 //  Created by Albert on 19.06.2023.
 //
 
-#ifndef HistoryController_h
-#define HistoryController_h
+#import <UIKit/UIKit.h>
 
+@interface HistoryController : UIViewController
 
-#endif /* HistoryController_h */
+@end
+

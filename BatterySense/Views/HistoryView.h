@@ -5,8 +5,13 @@
 //  Created by Albert on 19.06.2023.
 //
 
-#ifndef HistoryView_h
-#define HistoryView_h
+#import <UIKit/UIKit.h>
+
+@interface HistoryView : UIView <UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NSArray *dataSource;
+
+@end
 
 
-#endif /* HistoryView_h */
