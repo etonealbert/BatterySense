@@ -8,5 +8,10 @@
 #ifndef SettingsView_h
 #define SettingsView_h
 
+#import <UIKit/UIKit.h>
+
+@interface SettingsView : UITableView
+
+@end
 
 #endif /* SettingsView_h */

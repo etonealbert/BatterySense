@@ -8,5 +8,10 @@
 #ifndef AdvancedSettingsView_h
 #define AdvancedSettingsView_h
 
+#import <UIKit/UIKit.h>
+
+@interface AdvancedSettingsView : UIViewController
+
+@end
 
 #endif /* AdvancedSettingsView_h */
