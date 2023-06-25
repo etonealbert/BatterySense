@@ -15,7 +15,6 @@
 
 @implementation AdvancedSettingsView
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
